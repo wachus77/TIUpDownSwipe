@@ -1,0 +1,22 @@
+{
+  "name": "TIUpDownSwipe",
+  "version": "0.1.0",
+  "summary": "A short description of TIUpDownSwipe.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tomek.iwaszek/TIUpDownSwipe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tomek.iwaszek": "tiwaszek@concisesoftware.com"
+  },
+  "source": {
+    "git": "https://github.com/tomek.iwaszek/TIUpDownSwipe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TIUpDownSwipe/Classes/**/*"
+}

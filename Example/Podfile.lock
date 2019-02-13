@@ -1,0 +1,16 @@
+PODS:
+  - TIUpDownSwipe (0.1.0)
+
+DEPENDENCIES:
+  - TIUpDownSwipe (from `../`)
+
+EXTERNAL SOURCES:
+  TIUpDownSwipe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TIUpDownSwipe: 48610d25f8203b88fca16af2650d3e61b2d43f7a
+
+PODFILE CHECKSUM: 057b8f5d9e6dd5e3cba316d912ca4d2b804f0459
+
+COCOAPODS: 1.5.3
