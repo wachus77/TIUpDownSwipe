@@ -22,7 +22,7 @@ pod 'TIUpDownSwipe'
 
 ## Author
 
-tomek.iwaszek, tiwaszek@concisesoftware.com
+Tomasz Iwaszek, wachus77@gmail.com
 
 ## License
 
