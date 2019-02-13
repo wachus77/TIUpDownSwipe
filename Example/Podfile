@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TIUpDownSwipe_Example' do
+  pod 'TIUpDownSwipe', :path => '../'
+
+  target 'TIUpDownSwipe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
