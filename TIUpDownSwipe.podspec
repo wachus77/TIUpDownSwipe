@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TIUpDownSwipe'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TIUpDownSwipe.'
+  s.summary          = 'Smooth, animated navigation between three controllers on a swipe gesture - up and down'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a library thanks to which it is possible to set navigation between three controllers on a swipe gesture - up and down, with the animation of changing the navigation arrow and smooth transition of the background colors of the view controllers.
                        DESC
 
-  s.homepage         = 'https://github.com/tomek.iwaszek/TIUpDownSwipe'
+  s.homepage         = 'https://github.com/wachus77/TIUpDownSwipe'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tomek.iwaszek' => 'tiwaszek@concisesoftware.com' }
-  s.source           = { :git => 'https://github.com/tomek.iwaszek/TIUpDownSwipe.git', :tag => s.version.to_s }
+  s.author           = { 'Tomasz Iwaszek' => 'wachus77@gmail.com' }
+  s.source           = { :git => 'https://github.com/wachus77/TIUpDownSwipe.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
