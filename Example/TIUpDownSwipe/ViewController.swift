@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import TIUpDownSwipe
 
-class ViewController: UIViewController {
-
+class ViewController: TIUpDownSwipeViewController, TIUpDownSwipeDataSource {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        datasource = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+        return UIViewController()
     }
-
+    
+    func upDownSwipeMiddleViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+        return UIViewController()
+    }
+    
+    func upDownSwipeBottomViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+        return UIViewController()
+    }
 }
 
