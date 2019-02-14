@@ -1,11 +1,12 @@
 # TIUpDownSwipe
 
-[![CI Status](https://img.shields.io/travis/tomek.iwaszek/TIUpDownSwipe.svg?style=flat)](https://travis-ci.org/tomek.iwaszek/TIUpDownSwipe)
-[![Version](https://img.shields.io/cocoapods/v/TIUpDownSwipe.svg?style=flat)](https://cocoapods.org/pods/TIUpDownSwipe)
-[![License](https://img.shields.io/cocoapods/l/TIUpDownSwipe.svg?style=flat)](https://cocoapods.org/pods/TIUpDownSwipe)
-[![Platform](https://img.shields.io/cocoapods/p/TIUpDownSwipe.svg?style=flat)](https://cocoapods.org/pods/TIUpDownSwipe)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/LICENSE)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-green.svg?style=flat)](https://developer.apple.com/swift/)
 
 under development...
+
+![Animation](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/Screenshots/first.gif)
+![Animation](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/Screenshots/waterizer.gif)
 
 ## Example
 
