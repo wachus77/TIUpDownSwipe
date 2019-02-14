@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/TIUpDownSwipe.svg?style=flat)](https://cocoapods.org/pods/TIUpDownSwipe)
 [![Platform](https://img.shields.io/cocoapods/p/TIUpDownSwipe.svg?style=flat)](https://cocoapods.org/pods/TIUpDownSwipe)
 
+under development...
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
