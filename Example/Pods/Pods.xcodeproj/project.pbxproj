@@ -13,9 +13,11 @@
 		386E298A14520AB04DE4D5BD1FC65502 /* Pods-TIUpDownSwipe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE39AD56EC17E1A1AFF4F68E11B05375 /* Pods-TIUpDownSwipe_Tests-dummy.m */; };
 		53D870105D7CA7A63294D74EA0FE00F2 /* TIUpDownSwipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35253317CDCDE156B609B783E46F56CC /* TIUpDownSwipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8591B2D096F575B350D35A4FC260C77A /* Pods-TIUpDownSwipe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F482A88C0CF5500AF69D288630BA75 /* Pods-TIUpDownSwipe_Example-dummy.m */; };
+		C739C6E82215AEB300EEDE3C /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739C6E22215AEAF00EEDE3C /* GlobalProperties.swift */; };
+		C739C6E92215AEB700EEDE3C /* GripperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739C6E32215AEAF00EEDE3C /* GripperView.swift */; };
+		C739C6EA2215AEBB00EEDE3C /* TIUpDownSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739C6E42215AEAF00EEDE3C /* TIUpDownSwipeViewController.swift */; };
 		D210FCA66EDD60A73AC75C0D2C63A7AB /* Pods-TIUpDownSwipe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9564B0067DA1034280BEBE663B034F4 /* Pods-TIUpDownSwipe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7B4572B2BC960F8BFE54170E77462F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EDA6DC167F0FC497B0A2943AB8662E3C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996BFBD6EC8DBEAE14BE95DC6F0C8F2 /* ReplaceMe.swift */; };
 		FFDA011C4997103B591B04979EDBF6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,30 +46,32 @@
 		28FFE1FF302CBF1EF42A390C036C3319 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35253317CDCDE156B609B783E46F56CC /* TIUpDownSwipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIUpDownSwipe-umbrella.h"; sourceTree = "<group>"; };
 		38ABDE5BEB34DCDD105AA51276A621D5 /* Pods-TIUpDownSwipe_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Example-resources.sh"; sourceTree = "<group>"; };
-		41859FF3201FFE7A21A918F7DBA43836 /* TIUpDownSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TIUpDownSwipe.framework; path = TIUpDownSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41859FF3201FFE7A21A918F7DBA43836 /* TIUpDownSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TIUpDownSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		469A5FA0936568AA4AE36BBC20358A70 /* Pods-TIUpDownSwipe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIUpDownSwipe_Example-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BACAB496D8C6EEA0537C53E00068B3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5BACAB496D8C6EEA0537C53E00068B3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5D98DF06F7B470AEFAD4DEB99E6F9FCD /* Pods-TIUpDownSwipe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6156A8A699D6B7B4A155A3092579625D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B7B38E65F27CA674123802BF4EB95B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B7B38E65F27CA674123802BF4EB95B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6BF627327DCF61EE3EB8BFF7CB2470EA /* TIUpDownSwipe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIUpDownSwipe.xcconfig; sourceTree = "<group>"; };
 		7AE43FB46797143E5722FF05A4642887 /* Pods-TIUpDownSwipe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIUpDownSwipe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		81533DD25332209F5A281E4A6BC2CF1E /* Pods_TIUpDownSwipe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIUpDownSwipe_Tests.framework; path = "Pods-TIUpDownSwipe_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81533DD25332209F5A281E4A6BC2CF1E /* Pods_TIUpDownSwipe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIUpDownSwipe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F482A88C0CF5500AF69D288630BA75 /* Pods-TIUpDownSwipe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIUpDownSwipe_Example-dummy.m"; sourceTree = "<group>"; };
-		8996BFBD6EC8DBEAE14BE95DC6F0C8F2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TIUpDownSwipe/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		966C35A8FA8788684DEDFB64D6072146 /* Pods-TIUpDownSwipe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIUpDownSwipe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BBA69576FB315FE081C77803349D826 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9564B0067DA1034280BEBE663B034F4 /* Pods-TIUpDownSwipe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIUpDownSwipe_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B964BF59F9E076FC5B23FD3DC754A60A /* TIUpDownSwipe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TIUpDownSwipe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B964BF59F9E076FC5B23FD3DC754A60A /* TIUpDownSwipe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TIUpDownSwipe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C739C6E22215AEAF00EEDE3C /* GlobalProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalProperties.swift; path = TIUpDownSwipe/Classes/GlobalProperties.swift; sourceTree = "<group>"; };
+		C739C6E32215AEAF00EEDE3C /* GripperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GripperView.swift; path = TIUpDownSwipe/Classes/GripperView.swift; sourceTree = "<group>"; };
+		C739C6E42215AEAF00EEDE3C /* TIUpDownSwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TIUpDownSwipeViewController.swift; path = TIUpDownSwipe/Classes/TIUpDownSwipeViewController.swift; sourceTree = "<group>"; };
 		C9631B53CA76893562ED4D756BF32BEB /* Pods-TIUpDownSwipe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB766B3EB33C9D57BAEA53F4E78DCB0B /* Pods-TIUpDownSwipe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIUpDownSwipe_Example.modulemap"; sourceTree = "<group>"; };
 		D33431876D58F773EA5BFB96343C79CC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D47ECEA91CDE25DE077CAB89605CCEE8 /* TIUpDownSwipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIUpDownSwipe.modulemap; sourceTree = "<group>"; };
 		D691EAEF57533636E20DA26747619383 /* Pods-TIUpDownSwipe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIUpDownSwipe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAA5582CAC7258A2FA1DAF086C0BABCE /* Pods-TIUpDownSwipe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIUpDownSwipe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB068595D258229B65FE7C2A60C43F91 /* Pods_TIUpDownSwipe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIUpDownSwipe_Example.framework; path = "Pods-TIUpDownSwipe_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB068595D258229B65FE7C2A60C43F91 /* Pods_TIUpDownSwipe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIUpDownSwipe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0A25E0FBECFC6B801853BA55839FC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE39AD56EC17E1A1AFF4F68E11B05375 /* Pods-TIUpDownSwipe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIUpDownSwipe_Tests-dummy.m"; sourceTree = "<group>"; };
 		E8E41C3D81BD83F83CD81F5723E1D02D /* Pods-TIUpDownSwipe_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -155,7 +159,9 @@
 		6FD3DF249DF6C884EA1A7AFB57000520 /* TIUpDownSwipe */ = {
 			isa = PBXGroup;
 			children = (
-				8996BFBD6EC8DBEAE14BE95DC6F0C8F2 /* ReplaceMe.swift */,
+				C739C6E22215AEAF00EEDE3C /* GlobalProperties.swift */,
+				C739C6E32215AEAF00EEDE3C /* GripperView.swift */,
+				C739C6E42215AEAF00EEDE3C /* TIUpDownSwipeViewController.swift */,
 				C55A2BA75FAC168460B8E94C9555CA74 /* Pod */,
 				2503A90425ECD3EE2A6B931BD7AF5E56 /* Support Files */,
 			);
@@ -318,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3EF976451E6A2925569458AFAC6448B7 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,8 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA6DC167F0FC497B0A2943AB8662E3C /* ReplaceMe.swift in Sources */,
 				00610328489ED81E858FA26E09C4C27C /* TIUpDownSwipe-dummy.m in Sources */,
+				C739C6E92215AEB700EEDE3C /* GripperView.swift in Sources */,
+				C739C6E82215AEB300EEDE3C /* GlobalProperties.swift in Sources */,
+				C739C6EA2215AEBB00EEDE3C /* TIUpDownSwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +411,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TIUpDownSwipe/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe.modulemap";
 				PRODUCT_MODULE_NAME = TIUpDownSwipe;
@@ -407,7 +420,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -419,6 +432,7 @@
 			baseConfigurationReference = C9631B53CA76893562ED4D756BF32BEB /* Pods-TIUpDownSwipe_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -442,6 +456,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -454,6 +469,7 @@
 			baseConfigurationReference = 9BBA69576FB315FE081C77803349D826 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -478,6 +494,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -596,7 +613,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TIUpDownSwipe/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe.modulemap";
 				PRODUCT_MODULE_NAME = TIUpDownSwipe;
@@ -605,7 +622,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
