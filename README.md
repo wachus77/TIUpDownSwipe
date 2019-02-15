@@ -3,8 +3,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/LICENSE)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-green.svg?style=flat)](https://developer.apple.com/swift/)
 
-under development...
-
 ![Animation](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/Screenshots/first.gif)
 ![Animation](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/Screenshots/second.gif)
 
