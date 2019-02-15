@@ -39,7 +39,7 @@ open class TIUpDownSwipeViewController: UIViewController {
     private var topGripperView: GripperView!
     private var bottomGripperView: GripperView!
     
-    var gripperColor: UIColor = .white {
+    public var gripperColor: UIColor = .white {
         didSet {
             topGripperView.strokeColor = gripperColor
         }
@@ -55,31 +55,35 @@ open class TIUpDownSwipeViewController: UIViewController {
     private var topTextLayer: UILabel!
     private var bottomTextLayer: UILabel!
     
-    var textColor: UIColor = .white {
+    public var textColor: UIColor = .white {
         didSet {
             topTextLayer?.textColor = textColor
             bottomTextLayer?.textColor = textColor
         }
     }
     
-    var textFont: UIFont = UIFont.systemFont(ofSize: 19) {
+    public var textFont: UIFont = UIFont.systemFont(ofSize: 19) {
         didSet {
             topTextLayer?.font = textFont
             bottomTextLayer?.font = textFont
+            topTextLayer?.sizeToFit()
+            bottomTextLayer?.sizeToFit()
             updateInitialLabelsFrame()
         }
     }
     
-    var topText: String = "top" {
+    public var topText: String = "top" {
         didSet {
             topTextLayer?.text = topText
+            topTextLayer?.sizeToFit()
             updateInitialLabelsFrame()
         }
     }
     
-    var bottomText: String = "bottom" {
+    public var bottomText: String = "bottom" {
         didSet {
-            bottomTextLayer?.text = topText
+            bottomTextLayer?.text = bottomText
+            bottomTextLayer?.sizeToFit()
             updateInitialLabelsFrame()
         }
     }
@@ -91,9 +95,9 @@ open class TIUpDownSwipeViewController: UIViewController {
     
     private var controllers: [UIViewController] = []
     
-    var topControllerColor = UIColor.init(red: 0.640, green: 0.810, blue: 0.890, alpha: 1.0)
-    var middleControllerColor = UIColor.init(red: 0.130, green: 0.350, blue: 0.520, alpha: 1.0)
-    var bottomControllerColor = UIColor.init(red: 0.190, green: 0.290, blue: 0.390, alpha: 1.0)
+    public var topControllerColor = UIColor.init(red: 0.640, green: 0.810, blue: 0.890, alpha: 1.0)
+    public var middleControllerColor = UIColor.init(red: 0.130, green: 0.350, blue: 0.520, alpha: 1.0)
+    public var bottomControllerColor = UIColor.init(red: 0.190, green: 0.290, blue: 0.390, alpha: 1.0)
     
     override open var prefersStatusBarHidden: Bool {
         return true
