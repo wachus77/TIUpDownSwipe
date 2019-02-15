@@ -6,6 +6,7 @@
 under development...
 
 ![Animation](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/Screenshots/first.gif)
+![Animation](https://raw.githubusercontent.com/wachus77/TIUpDownSwipe/master/Screenshots/second.gif)
 
 ## Example
 
