@@ -1,9 +1,9 @@
 //
-//  ViewController.swift
+//  TIUpDownSwipeViewController.swift
 //  TIUpDownSwipe
 //
 //  Created by Tomasz Iwaszek on 2/12/19.
-//  Copyright © 2019 matchusolutions. All rights reserved.
+//  Copyright © 2019 wachus77. All rights reserved.
 //
 
 import UIKit
