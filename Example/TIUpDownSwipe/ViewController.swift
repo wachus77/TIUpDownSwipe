@@ -42,15 +42,15 @@ class ViewController: TIUpDownSwipeViewController, TIUpDownSwipeDataSource {
     }
     
     func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
-        return UIViewController()
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "topController")
     }
     
     func upDownSwipeMiddleViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
-        return UIViewController()
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "middleController")
     }
     
     func upDownSwipeBottomViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
-        return UIViewController()
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "bottomController")
     }
 }
 
