@@ -21,6 +21,41 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TIUpDownSwipe'
 ```
+## Basic Usage
+
+```swift
+import TIUpDownSwipe
+```
+
+## DataSource
+
+```swift
+class ViewController: TIUpDownSwipeViewController, TIUpDownSwipeDataSource {
+
+override func viewDidLoad() {
+super.viewDidLoad()
+datasource = self
+topControllerColor = UIColor(hexString: "#c01d1d")
+middleControllerColor = UIColor(hexString: "#d35454")
+bottomControllerColor = UIColor(hexString: "#ff6969")
+topText = "first"
+bottomText = "last"
+}
+
+func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+return UIViewController()
+}
+
+func upDownSwipeMiddleViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+return UIViewController()
+}
+
+func upDownSwipeBottomViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+return UIViewController()
+}
+}
+```
+
 
 ## Author
 
