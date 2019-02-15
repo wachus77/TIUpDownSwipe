@@ -137,6 +137,8 @@ open class TIUpDownSwipeViewController: UIViewController {
             return
         }
         
+        scrollView.contentInsetAdjustmentBehavior = .never
+        
         controllers = [datasource.upDownSwipeTopViewController(self), datasource.upDownSwipeMiddleViewController(self), datasource.upDownSwipeBottomViewController(self)]
         
         self.view.layoutIfNeeded()
