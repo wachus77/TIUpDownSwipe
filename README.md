@@ -32,27 +32,27 @@ import TIUpDownSwipe
 ```swift
 class ViewController: TIUpDownSwipeViewController, TIUpDownSwipeDataSource {
 
-override func viewDidLoad() {
-super.viewDidLoad()
-datasource = self
-topControllerColor = UIColor(hexString: "#c01d1d")
-middleControllerColor = UIColor(hexString: "#d35454")
-bottomControllerColor = UIColor(hexString: "#ff6969")
-topText = "first"
-bottomText = "last"
-}
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        datasource = self
+        topControllerColor = UIColor(hexString: "#c01d1d")
+        middleControllerColor = UIColor(hexString: "#d35454")
+        bottomControllerColor = UIColor(hexString: "#ff6969")
+        topText = "first"
+        bottomText = "last"
+    }
 
-func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
-return UIViewController()
-}
+    func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+        return UIViewController()
+    }
 
-func upDownSwipeMiddleViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
-return UIViewController()
-}
+    func upDownSwipeMiddleViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+        return UIViewController()
+    }
 
-func upDownSwipeBottomViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
-return UIViewController()
-}
+    func upDownSwipeBottomViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
+        return UIViewController()
+    }
 }
 ```
 
