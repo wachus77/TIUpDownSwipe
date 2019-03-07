@@ -55,9 +55,9 @@ open class TIUpDownSwipeViewController: UIViewController {
     private var topTextLayer: UILabel!
     private var bottomTextLayer: UILabel!
     
-    public var avoidingViewForScroll: UIView? {
+    public var avoidingViewsForScroll: [UIView]? {
         didSet {
-            scrollView.avoidingView = avoidingViewForScroll
+            scrollView.avoidingViews = avoidingViewsForScroll
             scrollView.delaysContentTouches = false
         }
     }
