@@ -24,7 +24,7 @@ open class TIUpDownSwipeViewController: UIViewController {
         }
     }
     
-    private let scrollView = UIScrollView()
+    private let scrollView = AvoidingScrollView()
     
     var topSafeArea: CGFloat {
         return iphoneType == .other ? 0.0: view.safeAreaInsets.top
@@ -54,6 +54,13 @@ open class TIUpDownSwipeViewController: UIViewController {
     
     private var topTextLayer: UILabel!
     private var bottomTextLayer: UILabel!
+    
+    public var avoidingViewForScroll: UIView? {
+        didSet {
+            scrollView.avoidingView = avoidingViewForScroll
+            scrollView.delaysContentTouches = false
+        }
+    }
     
     public var textColor: UIColor = .white {
         didSet {
