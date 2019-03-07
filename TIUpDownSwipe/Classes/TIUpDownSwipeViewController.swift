@@ -39,6 +39,15 @@ open class TIUpDownSwipeViewController: UIViewController {
     private var topGripperView: GripperView!
     private var bottomGripperView: GripperView!
     
+    public var hideGripperViews: Bool = true {
+        didSet {
+            topGripperView.isHidden = hideGripperViews
+            bottomGripperView.isHidden = hideGripperViews
+            topTextLayer.isHidden = hideGripperViews
+            bottomTextLayer.isHidden = hideGripperViews
+        }
+    }
+    
     public var gripperColor: UIColor = .white {
         didSet {
             topGripperView.strokeColor = gripperColor
