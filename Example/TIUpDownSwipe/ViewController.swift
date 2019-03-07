@@ -39,6 +39,7 @@ class ViewController: TIUpDownSwipeViewController, TIUpDownSwipeDataSource {
         bottomControllerColor = UIColor(hexString: "#ff6969")
         topText = "first"
         bottomText = "last"
+        hideGripperViews = false
     }
     
     func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController {
