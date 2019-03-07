@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TIUpDownSwipe'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Smooth, animated navigation between three controllers on a swipe gesture - up and down'
   s.swift_version    = '4.2'
 
