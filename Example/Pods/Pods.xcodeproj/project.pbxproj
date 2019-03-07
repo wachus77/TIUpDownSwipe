@@ -7,231 +7,231 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C50F562613FB65F1E855A89C6CF8139 /* TIUpDownSwipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9F09EE3D978F505D2B21106297B0FF /* TIUpDownSwipe-dummy.m */; };
-		0CA0B33DCD56D6F9C0E5FF949FB5202D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2B5814E824CA2D6A813DEC72C821240A /* GripperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353F68D72CD5F842E367E03DC456560 /* GripperView.swift */; };
-		31B519F5E93982E175F484DA86414283 /* Pods-TIUpDownSwipe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 469A5FA0936568AA4AE36BBC20358A70 /* Pods-TIUpDownSwipe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		354C095D81DF51F8CFAAB3D7E809CCFC /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91F780CBF49D6F2FC59A4C0914109DA /* GlobalProperties.swift */; };
-		386E298A14520AB04DE4D5BD1FC65502 /* Pods-TIUpDownSwipe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE39AD56EC17E1A1AFF4F68E11B05375 /* Pods-TIUpDownSwipe_Tests-dummy.m */; };
-		53D870105D7CA7A63294D74EA0FE00F2 /* TIUpDownSwipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8AA7A582DBFB4D7808B491113F423E /* TIUpDownSwipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8591B2D096F575B350D35A4FC260C77A /* Pods-TIUpDownSwipe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F482A88C0CF5500AF69D288630BA75 /* Pods-TIUpDownSwipe_Example-dummy.m */; };
-		C7A1631522313E6A0099875E /* AvoidingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A1631422313E6A0099875E /* AvoidingScrollView.swift */; };
-		D210FCA66EDD60A73AC75C0D2C63A7AB /* Pods-TIUpDownSwipe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9564B0067DA1034280BEBE663B034F4 /* Pods-TIUpDownSwipe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7B4572B2BC960F8BFE54170E77462F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F46206EBE053CE20F07A12354AAA03B6 /* TIUpDownSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C11DC1BC44D4E4FEC65AAC14F0D5C /* TIUpDownSwipeViewController.swift */; };
-		FFDA011C4997103B591B04979EDBF6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		07C475BCBD39D1E5290737BD2F7F352F /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDCED6C0455A3BD03CF90FD23A9F130 /* GlobalProperties.swift */; };
+		0A215A02119D89A6C85DC92CD8C7CDD4 /* Pods-TIUpDownSwipe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AE4FD1738FC5504C91E7C798E6A901 /* Pods-TIUpDownSwipe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127F94E37E08FD5AB6CD5ED34DF8CD84 /* TIUpDownSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AD29E94E6766779BC520BA0A68C2D /* TIUpDownSwipeViewController.swift */; };
+		15E4EA48BEAA5A314E9C2CFEA91F7472 /* Pods-TIUpDownSwipe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B99B8BD59F79D4E2B8A6C72F1F30131 /* Pods-TIUpDownSwipe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9EDDFCB3FBFC31C010B6A1D3242919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		52017B855EE09499861BC252BA3A46CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5CDDC1ED7FB050C22DB59C373E713288 /* GripperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000DE8096BC0E066631D25FF2AF38BC0 /* GripperView.swift */; };
+		A3A776A0CCF313649DCF40441F325D31 /* Pods-TIUpDownSwipe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6BD343DAA9CCE89E7B0F94C5FD30B /* Pods-TIUpDownSwipe_Tests-dummy.m */; };
+		BE9C1C1B5DD2E96C9EAA9EEA19C005C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C11F0C3D3F2FBCC04147B19D469E79F5 /* AvoidingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8B9D0E90E7D5645D25A153A21CA61 /* AvoidingScrollView.swift */; };
+		C2C425ED1633F045191CF59002A43E34 /* TIUpDownSwipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA239839EB4F1DD859593F1BC131CB00 /* TIUpDownSwipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C733529D765E2553373B562CBFF31F41 /* Pods-TIUpDownSwipe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F901190E83B5D97C9154898749D42725 /* Pods-TIUpDownSwipe_Example-dummy.m */; };
+		F4F3B7C3BC95795F77D55567A233915B /* TIUpDownSwipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EADAFB18BA2EA624BA59D58CE13986 /* TIUpDownSwipe-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D1FF17142E7F155987B34A58AF73E4B6 /* PBXContainerItemProxy */ = {
+		2D6F1C77271CEB2B2EA1EFADAF9C9E67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3EF976451E6A2925569458AFAC6448B7;
-			remoteInfo = "Pods-TIUpDownSwipe_Example";
-		};
-		FF054D229424E90AE34BACAF90529C5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B8A2AD7E7D8E181E513F1D35E5266FF;
+			remoteGlobalIDString = 879C80C2EAAF9F8FE2D9A717B05745CD;
 			remoteInfo = TIUpDownSwipe;
+		};
+		43BD667B5B7CFC1E95123A92B2942260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02632E7EA7F75E8BE8E030E5B7690BAD;
+			remoteInfo = "Pods-TIUpDownSwipe_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01EB827B1A2E186B0D1D6D44C2B5BC53 /* Pods-TIUpDownSwipe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIUpDownSwipe_Tests.modulemap"; sourceTree = "<group>"; };
-		0353F68D72CD5F842E367E03DC456560 /* GripperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GripperView.swift; path = TIUpDownSwipe/Classes/GripperView.swift; sourceTree = "<group>"; };
-		0E2B40BD22BD0699223D00F14C8B9EC9 /* Pods-TIUpDownSwipe_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1D90015B72BC9B58C876B1129C85D56A /* Pods-TIUpDownSwipe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D9F09EE3D978F505D2B21106297B0FF /* TIUpDownSwipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIUpDownSwipe-dummy.m"; sourceTree = "<group>"; };
-		28FFE1FF302CBF1EF42A390C036C3319 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3149CEF1484788322F640537E42283EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		38ABDE5BEB34DCDD105AA51276A621D5 /* Pods-TIUpDownSwipe_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Example-resources.sh"; sourceTree = "<group>"; };
-		41859FF3201FFE7A21A918F7DBA43836 /* TIUpDownSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TIUpDownSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		469A5FA0936568AA4AE36BBC20358A70 /* Pods-TIUpDownSwipe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIUpDownSwipe_Example-umbrella.h"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5D98DF06F7B470AEFAD4DEB99E6F9FCD /* Pods-TIUpDownSwipe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Example-frameworks.sh"; sourceTree = "<group>"; };
-		614936F767A9B359A377BC8C8005CBC9 /* TIUpDownSwipe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TIUpDownSwipe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6156A8A699D6B7B4A155A3092579625D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		719C11DC1BC44D4E4FEC65AAC14F0D5C /* TIUpDownSwipeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TIUpDownSwipeViewController.swift; path = TIUpDownSwipe/Classes/TIUpDownSwipeViewController.swift; sourceTree = "<group>"; };
-		7820689F5FD8DEA582D85859F33D6353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7AE43FB46797143E5722FF05A4642887 /* Pods-TIUpDownSwipe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIUpDownSwipe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		81533DD25332209F5A281E4A6BC2CF1E /* Pods_TIUpDownSwipe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIUpDownSwipe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81F482A88C0CF5500AF69D288630BA75 /* Pods-TIUpDownSwipe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIUpDownSwipe_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		966C35A8FA8788684DEDFB64D6072146 /* Pods-TIUpDownSwipe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIUpDownSwipe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9BBA69576FB315FE081C77803349D826 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B29133DD15AB84EED6A20ED2B4CD9692 /* TIUpDownSwipe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIUpDownSwipe.xcconfig; sourceTree = "<group>"; };
-		B9564B0067DA1034280BEBE663B034F4 /* Pods-TIUpDownSwipe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIUpDownSwipe_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C34382BB537CBECE993FEE3B2A27646E /* TIUpDownSwipe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIUpDownSwipe-prefix.pch"; sourceTree = "<group>"; };
-		C7A1631422313E6A0099875E /* AvoidingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidingScrollView.swift; sourceTree = "<group>"; };
-		C9631B53CA76893562ED4D756BF32BEB /* Pods-TIUpDownSwipe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CB766B3EB33C9D57BAEA53F4E78DCB0B /* Pods-TIUpDownSwipe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIUpDownSwipe_Example.modulemap"; sourceTree = "<group>"; };
-		D33431876D58F773EA5BFB96343C79CC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D691EAEF57533636E20DA26747619383 /* Pods-TIUpDownSwipe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIUpDownSwipe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DAA5582CAC7258A2FA1DAF086C0BABCE /* Pods-TIUpDownSwipe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIUpDownSwipe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB068595D258229B65FE7C2A60C43F91 /* Pods_TIUpDownSwipe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIUpDownSwipe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE39AD56EC17E1A1AFF4F68E11B05375 /* Pods-TIUpDownSwipe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIUpDownSwipe_Tests-dummy.m"; sourceTree = "<group>"; };
-		E8E41C3D81BD83F83CD81F5723E1D02D /* Pods-TIUpDownSwipe_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Tests-resources.sh"; sourceTree = "<group>"; };
-		EC8AA7A582DBFB4D7808B491113F423E /* TIUpDownSwipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIUpDownSwipe-umbrella.h"; sourceTree = "<group>"; };
-		EF46420FB41BC28858CC0EC8B65E3A09 /* TIUpDownSwipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIUpDownSwipe.modulemap; sourceTree = "<group>"; };
-		F5300630FE2F8732EC102F30D049DC48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F91F780CBF49D6F2FC59A4C0914109DA /* GlobalProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalProperties.swift; path = TIUpDownSwipe/Classes/GlobalProperties.swift; sourceTree = "<group>"; };
+		000DE8096BC0E066631D25FF2AF38BC0 /* GripperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GripperView.swift; path = TIUpDownSwipe/Classes/GripperView.swift; sourceTree = "<group>"; };
+		00D3755C40724F173AF93018B5AB4681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A27B561B3A4B4C07C3540E4B7DEB222 /* Pods_TIUpDownSwipe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIUpDownSwipe_Tests.framework; path = "Pods-TIUpDownSwipe_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232668B03823212A43D301E6D49D9C37 /* TIUpDownSwipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIUpDownSwipe.modulemap; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B35E7DF9E5D3016FB41DADA10EE8C0B /* Pods-TIUpDownSwipe_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2B404404AEFD1DE215A5C8D9B0B1BE14 /* Pods-TIUpDownSwipe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIUpDownSwipe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30255584C9A6733B36032ED53CEA398E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4242AD70229C46824AED76FE94723617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		432DDF319C0A99E0AF318E2E19174171 /* Pods-TIUpDownSwipe_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Tests-resources.sh"; sourceTree = "<group>"; };
+		436BF114E406B677E9CD109BB2DDD254 /* Pods-TIUpDownSwipe_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Example-resources.sh"; sourceTree = "<group>"; };
+		47749E35766787BD0F9D0DEA615F24E0 /* Pods-TIUpDownSwipe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Example.release.xcconfig"; sourceTree = "<group>"; };
+		47BABC3A7F275CC1FB28080F02A5AECC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47EE542746F753CD919D0DA88D71BD45 /* TIUpDownSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TIUpDownSwipe.framework; path = TIUpDownSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AE4FD1738FC5504C91E7C798E6A901 /* Pods-TIUpDownSwipe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIUpDownSwipe_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5E518EF5952B632DF82957679563A2CD /* Pods-TIUpDownSwipe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIUpDownSwipe_Example.modulemap"; sourceTree = "<group>"; };
+		6274763245BE75AF875371BF1E665A41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A9E181F0C805864B57ACCB5197AA7A /* Pods_TIUpDownSwipe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIUpDownSwipe_Example.framework; path = "Pods-TIUpDownSwipe_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1AD29E94E6766779BC520BA0A68C2D /* TIUpDownSwipeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TIUpDownSwipeViewController.swift; path = TIUpDownSwipe/Classes/TIUpDownSwipeViewController.swift; sourceTree = "<group>"; };
+		70D6BD343DAA9CCE89E7B0F94C5FD30B /* Pods-TIUpDownSwipe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIUpDownSwipe_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A95E524EE1834709487F56E07AD2687 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5A864F42AAFEE75E37ECA80390CCCE /* TIUpDownSwipe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TIUpDownSwipe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B99B8BD59F79D4E2B8A6C72F1F30131 /* Pods-TIUpDownSwipe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIUpDownSwipe_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C33BFF2A0E13D0A01942A4DA834EBFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C9139758F2B56CAEFE192C12B4DC3BF /* Pods-TIUpDownSwipe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIUpDownSwipe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DE8B9D0E90E7D5645D25A153A21CA61 /* AvoidingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvoidingScrollView.swift; path = TIUpDownSwipe/Classes/AvoidingScrollView.swift; sourceTree = "<group>"; };
+		80BDFC2390B923A82AB4BD58523F4701 /* Pods-TIUpDownSwipe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIUpDownSwipe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBDCED6C0455A3BD03CF90FD23A9F130 /* GlobalProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalProperties.swift; path = TIUpDownSwipe/Classes/GlobalProperties.swift; sourceTree = "<group>"; };
+		D2EADAFB18BA2EA624BA59D58CE13986 /* TIUpDownSwipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIUpDownSwipe-dummy.m"; sourceTree = "<group>"; };
+		D33CB971832167D2570C151D1433D09D /* Pods-TIUpDownSwipe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIUpDownSwipe_Tests.modulemap"; sourceTree = "<group>"; };
+		DA239839EB4F1DD859593F1BC131CB00 /* TIUpDownSwipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIUpDownSwipe-umbrella.h"; sourceTree = "<group>"; };
+		DA75B83560967AF7074566C1261FC400 /* Pods-TIUpDownSwipe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIUpDownSwipe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E663F93A89CCF7CD391C3EDFC7C53854 /* Pods-TIUpDownSwipe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIUpDownSwipe_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0EE2046C00EF23DFC7D294658EC7AC0 /* TIUpDownSwipe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIUpDownSwipe-prefix.pch"; sourceTree = "<group>"; };
+		F2121B02200D974F6B89C5D45B6AB437 /* TIUpDownSwipe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIUpDownSwipe.xcconfig; sourceTree = "<group>"; };
+		F85CFFF542DB3257A6464AD25C84FDBB /* Pods-TIUpDownSwipe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIUpDownSwipe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F901190E83B5D97C9154898749D42725 /* Pods-TIUpDownSwipe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIUpDownSwipe_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80FCA7FFEC03E5B7AA58589ABAB1870A /* Frameworks */ = {
+		0027C8CCE213EB6883B68E0A6C53F960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA0B33DCD56D6F9C0E5FF949FB5202D /* Foundation.framework in Frameworks */,
+				BE9C1C1B5DD2E96C9EAA9EEA19C005C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4FC061AD1E889C9548F4601520583F5 /* Frameworks */ = {
+		0523E2E734289DCAA8CE6DB77E065785 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFDA011C4997103B591B04979EDBF6E4 /* Foundation.framework in Frameworks */,
+				52017B855EE09499861BC252BA3A46CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC1DF3A07DADA7253B29E1A0B5825561 /* Frameworks */ = {
+		C7509F15DC4BA6254645B86D01262406 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B4572B2BC960F8BFE54170E77462F5 /* Foundation.framework in Frameworks */,
+				4B9EDDFCB3FBFC31C010B6A1D3242919 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B0EF443F1AB4599B752F9C6912C558D /* TIUpDownSwipe */ = {
+		123F0AE417BF47ACE1388ADAEA7C6A9B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F91F780CBF49D6F2FC59A4C0914109DA /* GlobalProperties.swift */,
-				0353F68D72CD5F842E367E03DC456560 /* GripperView.swift */,
-				719C11DC1BC44D4E4FEC65AAC14F0D5C /* TIUpDownSwipeViewController.swift */,
-				C7A1631422313E6A0099875E /* AvoidingScrollView.swift */,
-				143956E1DF5524B381A544412FE2C41B /* Pod */,
-				A7E96801068727B28BCB6C49D5AE0964 /* Support Files */,
-			);
-			name = TIUpDownSwipe;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		0D6B53F561B61057892CFF97D0E8B9B9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DB068595D258229B65FE7C2A60C43F91 /* Pods_TIUpDownSwipe_Example.framework */,
-				81533DD25332209F5A281E4A6BC2CF1E /* Pods_TIUpDownSwipe_Tests.framework */,
-				41859FF3201FFE7A21A918F7DBA43836 /* TIUpDownSwipe.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		143956E1DF5524B381A544412FE2C41B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7820689F5FD8DEA582D85859F33D6353 /* LICENSE */,
-				3149CEF1484788322F640537E42283EF /* README.md */,
-				614936F767A9B359A377BC8C8005CBC9 /* TIUpDownSwipe.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		15AF3F44339D532034D0AE0F17903702 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0B0EF443F1AB4599B752F9C6912C558D /* TIUpDownSwipe */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6EA8BA1B64E28FB127C2D9A40A2915D4 /* Pods-TIUpDownSwipe_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6156A8A699D6B7B4A155A3092579625D /* Info.plist */,
-				01EB827B1A2E186B0D1D6D44C2B5BC53 /* Pods-TIUpDownSwipe_Tests.modulemap */,
-				DAA5582CAC7258A2FA1DAF086C0BABCE /* Pods-TIUpDownSwipe_Tests-acknowledgements.markdown */,
-				966C35A8FA8788684DEDFB64D6072146 /* Pods-TIUpDownSwipe_Tests-acknowledgements.plist */,
-				DE39AD56EC17E1A1AFF4F68E11B05375 /* Pods-TIUpDownSwipe_Tests-dummy.m */,
-				0E2B40BD22BD0699223D00F14C8B9EC9 /* Pods-TIUpDownSwipe_Tests-frameworks.sh */,
-				E8E41C3D81BD83F83CD81F5723E1D02D /* Pods-TIUpDownSwipe_Tests-resources.sh */,
-				B9564B0067DA1034280BEBE663B034F4 /* Pods-TIUpDownSwipe_Tests-umbrella.h */,
-				1D90015B72BC9B58C876B1129C85D56A /* Pods-TIUpDownSwipe_Tests.debug.xcconfig */,
-				D33431876D58F773EA5BFB96343C79CC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */,
-			);
-			name = "Pods-TIUpDownSwipe_Tests";
-			path = "Target Support Files/Pods-TIUpDownSwipe_Tests";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				15AF3F44339D532034D0AE0F17903702 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0D6B53F561B61057892CFF97D0E8B9B9 /* Products */,
-				8004812488BAAA65DDCE59ECC9A66562 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8004812488BAAA65DDCE59ECC9A66562 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				90C9136FF3220BD8C9E9F26BD539A965 /* Pods-TIUpDownSwipe_Example */,
-				6EA8BA1B64E28FB127C2D9A40A2915D4 /* Pods-TIUpDownSwipe_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		90C9136FF3220BD8C9E9F26BD539A965 /* Pods-TIUpDownSwipe_Example */ = {
-			isa = PBXGroup;
-			children = (
-				28FFE1FF302CBF1EF42A390C036C3319 /* Info.plist */,
-				CB766B3EB33C9D57BAEA53F4E78DCB0B /* Pods-TIUpDownSwipe_Example.modulemap */,
-				7AE43FB46797143E5722FF05A4642887 /* Pods-TIUpDownSwipe_Example-acknowledgements.markdown */,
-				D691EAEF57533636E20DA26747619383 /* Pods-TIUpDownSwipe_Example-acknowledgements.plist */,
-				81F482A88C0CF5500AF69D288630BA75 /* Pods-TIUpDownSwipe_Example-dummy.m */,
-				5D98DF06F7B470AEFAD4DEB99E6F9FCD /* Pods-TIUpDownSwipe_Example-frameworks.sh */,
-				38ABDE5BEB34DCDD105AA51276A621D5 /* Pods-TIUpDownSwipe_Example-resources.sh */,
-				469A5FA0936568AA4AE36BBC20358A70 /* Pods-TIUpDownSwipe_Example-umbrella.h */,
-				9BBA69576FB315FE081C77803349D826 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */,
-				C9631B53CA76893562ED4D756BF32BEB /* Pods-TIUpDownSwipe_Example.release.xcconfig */,
-			);
-			name = "Pods-TIUpDownSwipe_Example";
-			path = "Target Support Files/Pods-TIUpDownSwipe_Example";
-			sourceTree = "<group>";
-		};
-		A7E96801068727B28BCB6C49D5AE0964 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5300630FE2F8732EC102F30D049DC48 /* Info.plist */,
-				EF46420FB41BC28858CC0EC8B65E3A09 /* TIUpDownSwipe.modulemap */,
-				B29133DD15AB84EED6A20ED2B4CD9692 /* TIUpDownSwipe.xcconfig */,
-				1D9F09EE3D978F505D2B21106297B0FF /* TIUpDownSwipe-dummy.m */,
-				C34382BB537CBECE993FEE3B2A27646E /* TIUpDownSwipe-prefix.pch */,
-				EC8AA7A582DBFB4D7808B491113F423E /* TIUpDownSwipe-umbrella.h */,
+				6274763245BE75AF875371BF1E665A41 /* Info.plist */,
+				232668B03823212A43D301E6D49D9C37 /* TIUpDownSwipe.modulemap */,
+				F2121B02200D974F6B89C5D45B6AB437 /* TIUpDownSwipe.xcconfig */,
+				D2EADAFB18BA2EA624BA59D58CE13986 /* TIUpDownSwipe-dummy.m */,
+				F0EE2046C00EF23DFC7D294658EC7AC0 /* TIUpDownSwipe-prefix.pch */,
+				DA239839EB4F1DD859593F1BC131CB00 /* TIUpDownSwipe-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TIUpDownSwipe";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		265A0F6623A99019717146EE99F6A6FC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				4242AD70229C46824AED76FE94723617 /* LICENSE */,
+				7C33BFF2A0E13D0A01942A4DA834EBFC /* README.md */,
+				7B5A864F42AAFEE75E37ECA80390CCCE /* TIUpDownSwipe.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		39B1ACAD8EF98E93EBCFEB7FD9776846 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E838C916F08D78C68FE28FC1314A9B9 /* Pods-TIUpDownSwipe_Example */,
+				74B8E51D479EDBD1FA18948E6BE10725 /* Pods-TIUpDownSwipe_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		745AF7E089D7276F47B251EA830CFB1E /* TIUpDownSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8B9D0E90E7D5645D25A153A21CA61 /* AvoidingScrollView.swift */,
+				CBDCED6C0455A3BD03CF90FD23A9F130 /* GlobalProperties.swift */,
+				000DE8096BC0E066631D25FF2AF38BC0 /* GripperView.swift */,
+				6B1AD29E94E6766779BC520BA0A68C2D /* TIUpDownSwipeViewController.swift */,
+				265A0F6623A99019717146EE99F6A6FC /* Pod */,
+				123F0AE417BF47ACE1388ADAEA7C6A9B /* Support Files */,
+			);
+			name = TIUpDownSwipe;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		74B8E51D479EDBD1FA18948E6BE10725 /* Pods-TIUpDownSwipe_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00D3755C40724F173AF93018B5AB4681 /* Info.plist */,
+				D33CB971832167D2570C151D1433D09D /* Pods-TIUpDownSwipe_Tests.modulemap */,
+				F85CFFF542DB3257A6464AD25C84FDBB /* Pods-TIUpDownSwipe_Tests-acknowledgements.markdown */,
+				2B404404AEFD1DE215A5C8D9B0B1BE14 /* Pods-TIUpDownSwipe_Tests-acknowledgements.plist */,
+				70D6BD343DAA9CCE89E7B0F94C5FD30B /* Pods-TIUpDownSwipe_Tests-dummy.m */,
+				2B35E7DF9E5D3016FB41DADA10EE8C0B /* Pods-TIUpDownSwipe_Tests-frameworks.sh */,
+				432DDF319C0A99E0AF318E2E19174171 /* Pods-TIUpDownSwipe_Tests-resources.sh */,
+				58AE4FD1738FC5504C91E7C798E6A901 /* Pods-TIUpDownSwipe_Tests-umbrella.h */,
+				80BDFC2390B923A82AB4BD58523F4701 /* Pods-TIUpDownSwipe_Tests.debug.xcconfig */,
+				47BABC3A7F275CC1FB28080F02A5AECC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */,
+			);
+			name = "Pods-TIUpDownSwipe_Tests";
+			path = "Target Support Files/Pods-TIUpDownSwipe_Tests";
+			sourceTree = "<group>";
+		};
+		7E838C916F08D78C68FE28FC1314A9B9 /* Pods-TIUpDownSwipe_Example */ = {
+			isa = PBXGroup;
+			children = (
+				30255584C9A6733B36032ED53CEA398E /* Info.plist */,
+				5E518EF5952B632DF82957679563A2CD /* Pods-TIUpDownSwipe_Example.modulemap */,
+				7C9139758F2B56CAEFE192C12B4DC3BF /* Pods-TIUpDownSwipe_Example-acknowledgements.markdown */,
+				DA75B83560967AF7074566C1261FC400 /* Pods-TIUpDownSwipe_Example-acknowledgements.plist */,
+				F901190E83B5D97C9154898749D42725 /* Pods-TIUpDownSwipe_Example-dummy.m */,
+				E663F93A89CCF7CD391C3EDFC7C53854 /* Pods-TIUpDownSwipe_Example-frameworks.sh */,
+				436BF114E406B677E9CD109BB2DDD254 /* Pods-TIUpDownSwipe_Example-resources.sh */,
+				7B99B8BD59F79D4E2B8A6C72F1F30131 /* Pods-TIUpDownSwipe_Example-umbrella.h */,
+				7A95E524EE1834709487F56E07AD2687 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */,
+				47749E35766787BD0F9D0DEA615F24E0 /* Pods-TIUpDownSwipe_Example.release.xcconfig */,
+			);
+			name = "Pods-TIUpDownSwipe_Example";
+			path = "Target Support Files/Pods-TIUpDownSwipe_Example";
+			sourceTree = "<group>";
+		};
+		7F1EA3B87EAF21117C761A9F0D83D175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62A9E181F0C805864B57ACCB5197AA7A /* Pods_TIUpDownSwipe_Example.framework */,
+				0A27B561B3A4B4C07C3540E4B7DEB222 /* Pods_TIUpDownSwipe_Tests.framework */,
+				47EE542746F753CD919D0DA88D71BD45 /* TIUpDownSwipe.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B693767409EF810ACC3C232C5B1509E2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				745AF7E089D7276F47B251EA830CFB1E /* TIUpDownSwipe */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				B693767409EF810ACC3C232C5B1509E2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7F1EA3B87EAF21117C761A9F0D83D175 /* Products */,
+				39B1ACAD8EF98E93EBCFEB7FD9776846 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -239,58 +239,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		183BEE19068ACE6817CAFF383D6A4B90 /* Headers */ = {
+		AB3BF2AF2AB8D5B1A02DC6CDC4E9597A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D210FCA66EDD60A73AC75C0D2C63A7AB /* Pods-TIUpDownSwipe_Tests-umbrella.h in Headers */,
+				0A215A02119D89A6C85DC92CD8C7CDD4 /* Pods-TIUpDownSwipe_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6471695E4D240F8B5FCEBD70C248B119 /* Headers */ = {
+		B3E82C69F8A2FAC2755CDFA8565CBD0B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B519F5E93982E175F484DA86414283 /* Pods-TIUpDownSwipe_Example-umbrella.h in Headers */,
+				C2C425ED1633F045191CF59002A43E34 /* TIUpDownSwipe-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72D90618C4AA8795D57A7894E8BF4A6F /* Headers */ = {
+		EA7D3F88CC0DB1D9DEE2C1318B397132 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D870105D7CA7A63294D74EA0FE00F2 /* TIUpDownSwipe-umbrella.h in Headers */,
+				15E4EA48BEAA5A314E9C2CFEA91F7472 /* Pods-TIUpDownSwipe_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3EF976451E6A2925569458AFAC6448B7 /* Pods-TIUpDownSwipe_Example */ = {
+		02632E7EA7F75E8BE8E030E5B7690BAD /* Pods-TIUpDownSwipe_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BFE46F3A2CBECE67335346E1C8F7E95 /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Example" */;
+			buildConfigurationList = 219502079DD4A16E0354D81E711F3072 /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Example" */;
 			buildPhases = (
-				B534BC6EF085E609419592138F86D79B /* Sources */,
-				80FCA7FFEC03E5B7AA58589ABAB1870A /* Frameworks */,
-				6471695E4D240F8B5FCEBD70C248B119 /* Headers */,
+				EA7D3F88CC0DB1D9DEE2C1318B397132 /* Headers */,
+				540C465ECAD00F56CC734228207CD663 /* Sources */,
+				0027C8CCE213EB6883B68E0A6C53F960 /* Frameworks */,
+				627126B1D2E22E386D382A98F880E774 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				437E9525A88324C872C85A0F30DD4AB0 /* PBXTargetDependency */,
+				37DE334971308A2F5BCD33056BD39233 /* PBXTargetDependency */,
 			);
 			name = "Pods-TIUpDownSwipe_Example";
 			productName = "Pods-TIUpDownSwipe_Example";
-			productReference = DB068595D258229B65FE7C2A60C43F91 /* Pods_TIUpDownSwipe_Example.framework */;
+			productReference = 62A9E181F0C805864B57ACCB5197AA7A /* Pods_TIUpDownSwipe_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5B8A2AD7E7D8E181E513F1D35E5266FF /* TIUpDownSwipe */ = {
+		879C80C2EAAF9F8FE2D9A717B05745CD /* TIUpDownSwipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1977C48E670030370D3AFDB34285A33E /* Build configuration list for PBXNativeTarget "TIUpDownSwipe" */;
+			buildConfigurationList = FB95556E4D0FA477DE423FE63460A394 /* Build configuration list for PBXNativeTarget "TIUpDownSwipe" */;
 			buildPhases = (
-				063B20AE052D83118E37413F8A693592 /* Sources */,
-				CC1DF3A07DADA7253B29E1A0B5825561 /* Frameworks */,
-				72D90618C4AA8795D57A7894E8BF4A6F /* Headers */,
+				B3E82C69F8A2FAC2755CDFA8565CBD0B /* Headers */,
+				9AE2625591977690A5FE0FD9BF7B26D4 /* Sources */,
+				C7509F15DC4BA6254645B86D01262406 /* Frameworks */,
+				2D16C93603EDD0DF3DA85A009019CBED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -298,196 +300,130 @@
 			);
 			name = TIUpDownSwipe;
 			productName = TIUpDownSwipe;
-			productReference = 41859FF3201FFE7A21A918F7DBA43836 /* TIUpDownSwipe.framework */;
+			productReference = 47EE542746F753CD919D0DA88D71BD45 /* TIUpDownSwipe.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DE34D0A5BB17C1E540E8F6275937C5C5 /* Pods-TIUpDownSwipe_Tests */ = {
+		D69BD82D4C1D0A25DF3B212280E89BF4 /* Pods-TIUpDownSwipe_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 409189C7F41C49CCE50B525EE8E4702D /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Tests" */;
+			buildConfigurationList = AF7C883ACDF1A0B37122D07ABD7D85EB /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Tests" */;
 			buildPhases = (
-				F1D75D8B88C505654054CBF9C05DB7AD /* Sources */,
-				B4FC061AD1E889C9548F4601520583F5 /* Frameworks */,
-				183BEE19068ACE6817CAFF383D6A4B90 /* Headers */,
+				AB3BF2AF2AB8D5B1A02DC6CDC4E9597A /* Headers */,
+				11AEA2FFB6D538E4F42F2184E70FAE20 /* Sources */,
+				0523E2E734289DCAA8CE6DB77E065785 /* Frameworks */,
+				8A59F11396F7E965528F53C219AD9ADC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BAAB1D2F43B3EDBA0C288385F5C8CB4 /* PBXTargetDependency */,
+				0D3D0960AA42F12F7D9B54DC28273D1A /* PBXTargetDependency */,
 			);
 			name = "Pods-TIUpDownSwipe_Tests";
 			productName = "Pods-TIUpDownSwipe_Tests";
-			productReference = 81533DD25332209F5A281E4A6BC2CF1E /* Pods_TIUpDownSwipe_Tests.framework */;
+			productReference = 0A27B561B3A4B4C07C3540E4B7DEB222 /* Pods_TIUpDownSwipe_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0D6B53F561B61057892CFF97D0E8B9B9 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F1EA3B87EAF21117C761A9F0D83D175 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EF976451E6A2925569458AFAC6448B7 /* Pods-TIUpDownSwipe_Example */,
-				DE34D0A5BB17C1E540E8F6275937C5C5 /* Pods-TIUpDownSwipe_Tests */,
-				5B8A2AD7E7D8E181E513F1D35E5266FF /* TIUpDownSwipe */,
+				02632E7EA7F75E8BE8E030E5B7690BAD /* Pods-TIUpDownSwipe_Example */,
+				D69BD82D4C1D0A25DF3B212280E89BF4 /* Pods-TIUpDownSwipe_Tests */,
+				879C80C2EAAF9F8FE2D9A717B05745CD /* TIUpDownSwipe */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2D16C93603EDD0DF3DA85A009019CBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627126B1D2E22E386D382A98F880E774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A59F11396F7E965528F53C219AD9ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		063B20AE052D83118E37413F8A693592 /* Sources */ = {
+		11AEA2FFB6D538E4F42F2184E70FAE20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A1631522313E6A0099875E /* AvoidingScrollView.swift in Sources */,
-				354C095D81DF51F8CFAAB3D7E809CCFC /* GlobalProperties.swift in Sources */,
-				2B5814E824CA2D6A813DEC72C821240A /* GripperView.swift in Sources */,
-				0C50F562613FB65F1E855A89C6CF8139 /* TIUpDownSwipe-dummy.m in Sources */,
-				F46206EBE053CE20F07A12354AAA03B6 /* TIUpDownSwipeViewController.swift in Sources */,
+				A3A776A0CCF313649DCF40441F325D31 /* Pods-TIUpDownSwipe_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B534BC6EF085E609419592138F86D79B /* Sources */ = {
+		540C465ECAD00F56CC734228207CD663 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8591B2D096F575B350D35A4FC260C77A /* Pods-TIUpDownSwipe_Example-dummy.m in Sources */,
+				C733529D765E2553373B562CBFF31F41 /* Pods-TIUpDownSwipe_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D75D8B88C505654054CBF9C05DB7AD /* Sources */ = {
+		9AE2625591977690A5FE0FD9BF7B26D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386E298A14520AB04DE4D5BD1FC65502 /* Pods-TIUpDownSwipe_Tests-dummy.m in Sources */,
+				C11F0C3D3F2FBCC04147B19D469E79F5 /* AvoidingScrollView.swift in Sources */,
+				07C475BCBD39D1E5290737BD2F7F352F /* GlobalProperties.swift in Sources */,
+				5CDDC1ED7FB050C22DB59C373E713288 /* GripperView.swift in Sources */,
+				F4F3B7C3BC95795F77D55567A233915B /* TIUpDownSwipe-dummy.m in Sources */,
+				127F94E37E08FD5AB6CD5ED34DF8CD84 /* TIUpDownSwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		437E9525A88324C872C85A0F30DD4AB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TIUpDownSwipe;
-			target = 5B8A2AD7E7D8E181E513F1D35E5266FF /* TIUpDownSwipe */;
-			targetProxy = FF054D229424E90AE34BACAF90529C5E /* PBXContainerItemProxy */;
-		};
-		8BAAB1D2F43B3EDBA0C288385F5C8CB4 /* PBXTargetDependency */ = {
+		0D3D0960AA42F12F7D9B54DC28273D1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TIUpDownSwipe_Example";
-			target = 3EF976451E6A2925569458AFAC6448B7 /* Pods-TIUpDownSwipe_Example */;
-			targetProxy = D1FF17142E7F155987B34A58AF73E4B6 /* PBXContainerItemProxy */;
+			target = 02632E7EA7F75E8BE8E030E5B7690BAD /* Pods-TIUpDownSwipe_Example */;
+			targetProxy = 43BD667B5B7CFC1E95123A92B2942260 /* PBXContainerItemProxy */;
+		};
+		37DE334971308A2F5BCD33056BD39233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TIUpDownSwipe;
+			target = 879C80C2EAAF9F8FE2D9A717B05745CD /* TIUpDownSwipe */;
+			targetProxy = 2D6F1C77271CEB2B2EA1EFADAF9C9E67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+		0FCCDEF9DB9A60F349AE8367B06573DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		2B04ECC9A1B4F01B87851AD5C932698E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B29133DD15AB84EED6A20ED2B4CD9692 /* TIUpDownSwipe.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TIUpDownSwipe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe.modulemap";
-				PRODUCT_MODULE_NAME = TIUpDownSwipe;
-				PRODUCT_NAME = TIUpDownSwipe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4AF7F8A967F90C85F85B3A088849EE9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D33431876D58F773EA5BFB96343C79CC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */;
+			baseConfigurationReference = 47BABC3A7F275CC1FB28080F02A5AECC /* Pods-TIUpDownSwipe_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -520,9 +456,9 @@
 			};
 			name = Release;
 		};
-		9476CF583B03C1E2B26E34F4B0760A9A /* Release */ = {
+		21AAA64759173F2FC3A6B98776BB7E3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B29133DD15AB84EED6A20ED2B4CD9692 /* TIUpDownSwipe.xcconfig */;
+			baseConfigurationReference = F2121B02200D974F6B89C5D45B6AB437 /* TIUpDownSwipe.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -545,7 +481,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -554,7 +489,7 @@
 			};
 			name = Release;
 		};
-		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+		6C5ED2858717A79652C8E2D69CFE7F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,18 +543,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B82F846AC6C6750917F5FB55302AE416 /* Release */ = {
+		6DF6134FE387D585A81D2CC27A180737 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9631B53CA76893562ED4D756BF32BEB /* Pods-TIUpDownSwipe_Example.release.xcconfig */;
+			baseConfigurationReference = 47749E35766787BD0F9D0DEA615F24E0 /* Pods-TIUpDownSwipe_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -645,7 +583,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -653,9 +590,9 @@
 			};
 			name = Release;
 		};
-		CB825FFD6621F9CD3B24A7FFA3A69061 /* Debug */ = {
+		791B4E03506C70AB769D67E0710B5752 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BBA69576FB315FE081C77803349D826 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */;
+			baseConfigurationReference = 7A95E524EE1834709487F56E07AD2687 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -681,17 +618,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E9D5C7CA01B461F34B4A484A91D1F144 /* Debug */ = {
+		CF8888363AF186534A65625E02C7B9EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D90015B72BC9B58C876B1129C85D56A /* Pods-TIUpDownSwipe_Tests.debug.xcconfig */;
+			baseConfigurationReference = 80BDFC2390B923A82AB4BD58523F4701 /* Pods-TIUpDownSwipe_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -723,46 +658,140 @@
 			};
 			name = Debug;
 		};
+		DC6926311980865021471D5CD37E9660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2121B02200D974F6B89C5D45B6AB437 /* TIUpDownSwipe.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TIUpDownSwipe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TIUpDownSwipe/TIUpDownSwipe.modulemap";
+				PRODUCT_MODULE_NAME = TIUpDownSwipe;
+				PRODUCT_NAME = TIUpDownSwipe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF5BFA818FC42461784455EDD41279F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1977C48E670030370D3AFDB34285A33E /* Build configuration list for PBXNativeTarget "TIUpDownSwipe" */ = {
+		219502079DD4A16E0354D81E711F3072 /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B04ECC9A1B4F01B87851AD5C932698E /* Debug */,
-				9476CF583B03C1E2B26E34F4B0760A9A /* Release */,
+				791B4E03506C70AB769D67E0710B5752 /* Debug */,
+				6DF6134FE387D585A81D2CC27A180737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
-				08638A96A528B1EC32DE62F8A728389D /* Release */,
+				6C5ED2858717A79652C8E2D69CFE7F88 /* Debug */,
+				EF5BFA818FC42461784455EDD41279F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		409189C7F41C49CCE50B525EE8E4702D /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Tests" */ = {
+		AF7C883ACDF1A0B37122D07ABD7D85EB /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D5C7CA01B461F34B4A484A91D1F144 /* Debug */,
-				4AF7F8A967F90C85F85B3A088849EE9B /* Release */,
+				CF8888363AF186534A65625E02C7B9EA /* Debug */,
+				0FCCDEF9DB9A60F349AE8367B06573DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BFE46F3A2CBECE67335346E1C8F7E95 /* Build configuration list for PBXNativeTarget "Pods-TIUpDownSwipe_Example" */ = {
+		FB95556E4D0FA477DE423FE63460A394 /* Build configuration list for PBXNativeTarget "TIUpDownSwipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB825FFD6621F9CD3B24A7FFA3A69061 /* Debug */,
-				B82F846AC6C6750917F5FB55302AE416 /* Release */,
+				DC6926311980865021471D5CD37E9660 /* Debug */,
+				21AAA64759173F2FC3A6B98776BB7E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -1,5 +1,5 @@
 PODS:
-  - TIUpDownSwipe (0.1.0)
+  - TIUpDownSwipe (0.3.0)
 
 DEPENDENCIES:
   - TIUpDownSwipe (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TIUpDownSwipe: cbbf1d045086828f43c1c1fee2adc5b95166c5c8
+  TIUpDownSwipe: a2b117e6accaae7dc242c6d646d49a01e431eff6
 
 PODFILE CHECKSUM: 057b8f5d9e6dd5e3cba316d912ca4d2b804f0459
 
