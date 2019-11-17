@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F480EF723817F83006AEF02 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F480EF623817F83006AEF02 /* TopController.swift */; };
+		1F480EF923817FE7006AEF02 /* MiddleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F480EF823817FE7006AEF02 /* MiddleController.swift */; };
+		1F480EFB23818005006AEF02 /* BottomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F480EFA23818005006AEF02 /* BottomController.swift */; };
 		307F2D44DB3D0AAC1B3FF8F9 /* Pods_TIUpDownSwipe_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E7B69D8D8B8EB0AEDD741A /* Pods_TIUpDownSwipe_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		038AAC1EF0A1413185202CB7 /* TIUpDownSwipe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TIUpDownSwipe.podspec; path = ../TIUpDownSwipe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F480EF623817F83006AEF02 /* TopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopController.swift; sourceTree = "<group>"; };
+		1F480EF823817FE7006AEF02 /* MiddleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleController.swift; sourceTree = "<group>"; };
+		1F480EFA23818005006AEF02 /* BottomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomController.swift; sourceTree = "<group>"; };
 		25E7B69D8D8B8EB0AEDD741A /* Pods_TIUpDownSwipe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIUpDownSwipe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		514FD7F05DA489DD59E0B7DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		519273806241D7177620B733 /* Pods-TIUpDownSwipe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIUpDownSwipe_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIUpDownSwipe_Example/Pods-TIUpDownSwipe_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				1F480EF623817F83006AEF02 /* TopController.swift */,
+				1F480EF823817FE7006AEF02 /* MiddleController.swift */,
+				1F480EFA23818005006AEF02 /* BottomController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -226,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -322,6 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F480EFB23818005006AEF02 /* BottomController.swift in Sources */,
+				1F480EF923817FE7006AEF02 /* MiddleController.swift in Sources */,
+				1F480EF723817F83006AEF02 /* TopController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

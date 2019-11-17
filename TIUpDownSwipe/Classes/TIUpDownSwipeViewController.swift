@@ -9,12 +9,21 @@
 import UIKit
 
 public protocol TIUpDownSwipeDataSource {
-    func upDownSwipeTopViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController
-    
-    func upDownSwipeMiddleViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController
-    
-    func upDownSwipeBottomViewController(_ upDownSwipeController: TIUpDownSwipeViewController) -> UIViewController
+    var upDownSwipeTopViewController: TIUpDownSwipeController { get }
+    var upDownSwipeMiddleViewController: TIUpDownSwipeController { get }
+    var upDownSwipeBottomViewController: TIUpDownSwipeController { get }
 }
+
+func !=(lhs: TIUpDownSwipeApperanceProtocol?, rhs: TIUpDownSwipeApperanceProtocol?) -> Bool {
+    guard let lhs = lhs, let rhs = rhs else { return true }
+    return !(lhs == rhs)
+}
+
+public protocol TIUpDownSwipeApperanceProtocol: UIViewController {
+    func controllerHasAppeared()
+}
+
+public typealias TIUpDownSwipeController = TIUpDownSwipeApperanceProtocol
 
 open class TIUpDownSwipeViewController: UIViewController {
     
@@ -38,6 +47,14 @@ open class TIUpDownSwipeViewController: UIViewController {
     
     private var topGripperView: GripperView!
     private var bottomGripperView: GripperView!
+    
+    private var currentVisibleController: TIUpDownSwipeController? {
+        didSet {
+            if oldValue != currentVisibleController {
+                currentVisibleController!.controllerHasAppeared()
+            }
+        }
+    }
     
     public var hideGripperViews: Bool = true {
         didSet {
@@ -109,7 +126,7 @@ open class TIUpDownSwipeViewController: UIViewController {
     
     //MARK: Controllers properties
     
-    private var controllers: [UIViewController] = []
+    private var controllers: [TIUpDownSwipeController] = []
     
     public var topControllerColor = UIColor.init(red: 0.640, green: 0.810, blue: 0.890, alpha: 1.0)
     public var middleControllerColor = UIColor.init(red: 0.130, green: 0.350, blue: 0.520, alpha: 1.0)
@@ -155,7 +172,7 @@ open class TIUpDownSwipeViewController: UIViewController {
         
         scrollView.contentInsetAdjustmentBehavior = .never
         
-        controllers = [datasource.upDownSwipeTopViewController(self), datasource.upDownSwipeMiddleViewController(self), datasource.upDownSwipeBottomViewController(self)]
+        controllers = [datasource.upDownSwipeTopViewController, datasource.upDownSwipeMiddleViewController, datasource.upDownSwipeBottomViewController]
         
         self.view.layoutIfNeeded()
         
@@ -177,8 +194,11 @@ open class TIUpDownSwipeViewController: UIViewController {
         scrollView.frame = view.frame
         scrollView.contentSize = CGSize(width: 0, height: CGFloat(controllers.count) * screenHeight)
         
-        _ = controllers.map({ addViewToScrollView($0) })
-        _ = controllers.map({ $0.view.frame.origin =  CGPoint(x: 0, y: CGFloat(controllers.index(of: $0)!) * screenHeight) })
+        let uiViewController = controllers.map { (controller) -> UIViewController in
+            return controller as UIViewController
+        }
+        _ = uiViewController.map({ addViewToScrollView($0) })
+        _ = uiViewController.map({ $0.view.frame.origin =  CGPoint(x: 0, y: CGFloat(uiViewController.index(of: $0)!) * screenHeight) })
     }
     
     private func addViewToScrollView(_ viewController: UIViewController) {
@@ -346,6 +366,18 @@ extension TIUpDownSwipeViewController: UIScrollViewDelegate {
         scrollView.backgroundColor = scolor
         changeTopGripperPosition(percent: Double(percentageVerticalOffset))
         changeBottomGripperPosition(percent: Double(percentageVerticalOffset))
+        
+        //find out current controller
+        switch percentageVerticalOffset {
+        case 0.0:
+            self.currentVisibleController = controllers[0]
+        case 0.5:
+            self.currentVisibleController = controllers[1]
+        case 1.0:
+            self.currentVisibleController = controllers[2]
+        default:
+            break
+        }
     }
     
 }

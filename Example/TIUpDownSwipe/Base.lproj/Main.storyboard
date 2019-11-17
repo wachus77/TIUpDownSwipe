@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,11 +23,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="134" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Top Controller-->
         <scene sceneID="TzZ-VD-aO9">
             <objects>
-                <viewController storyboardIdentifier="topController" id="7nQ-J0-7Er" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="topController" id="7nQ-J0-7Er" customClass="TopController" customModule="TIUpDownSwipe_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e1E-cf-QZh"/>
                         <viewControllerLayoutGuide type="bottom" id="xyb-hd-TqX"/>
@@ -39,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLk-HR-6KP">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="16" y="8" width="343" height="651"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="1490" y="26"/>
         </scene>
-        <!--View Controller-->
+        <!--Middle Controller-->
         <scene sceneID="nyv-Vv-CjK">
             <objects>
-                <viewController storyboardIdentifier="middleController" id="tRL-QK-Gi5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="middleController" id="tRL-QK-Gi5" customClass="MiddleController" customModule="TIUpDownSwipe_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hLd-sg-LFq"/>
                         <viewControllerLayoutGuide type="bottom" id="AOv-cc-k9w"/>
@@ -90,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="2261.5999999999999" y="25.637181409295355"/>
         </scene>
-        <!--View Controller-->
+        <!--Bottom Controller-->
         <scene sceneID="fca-xV-nwn">
             <objects>
-                <viewController storyboardIdentifier="bottomController" id="gci-RO-iSN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bottomController" id="gci-RO-iSN" customClass="BottomController" customModule="TIUpDownSwipe_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aRP-73-F4S"/>
                         <viewControllerLayoutGuide type="bottom" id="WZ5-FI-5JF"/>
@@ -103,7 +102,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQS-bI-why">
-                                <rect key="frame" x="16" y="88" width="343" height="571"/>
+                                <rect key="frame" x="16" y="68" width="343" height="591"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
