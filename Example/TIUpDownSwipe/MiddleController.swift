@@ -14,7 +14,7 @@ class MiddleController: UIViewController {
 
 extension MiddleController : TIUpDownSwipeApperanceProtocol {
     func controllerHasAppeared() {
-        print("Reminder appeared")
+        print("middle appeared")
     }
 }
 

@@ -14,6 +14,6 @@ class TopController: UIViewController {
 
 extension TopController : TIUpDownSwipeApperanceProtocol {
     func controllerHasAppeared() {
-        print("Reminder appeared")
+        print("top appeared")
     }
 }
